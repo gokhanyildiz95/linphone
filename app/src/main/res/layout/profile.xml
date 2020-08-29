@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundColor"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/profile_topbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/dark_grey_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profile_layout_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/splashscreen" />
+
+
+        <TextView
+            android:id="@+id/profile_layout_name_top"
+            style="@style/about_version_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Umut Kahrıman"
+            android:paddingTop="20dp"
+            android:textColorLink="?attr/secondaryTextColor" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/backgroundColor"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/link_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="@string/username"
+                    android:textColorLink="@color/primary_color"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/profile_layout_name"
+                    style="@style/about_license_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text=""
+                    android:textColorLink="@color/primary_color" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/link_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="@string/profile_extension"
+                    android:textColorLink="@color/primary_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/profile_layout_extension"
+                    style="@style/about_license_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="303"
+                    android:textColorLink="@color/primary_color" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/link_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="@string/email"
+                    android:textColorLink="@color/primary_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/profile_layout_email"
+                    style="@style/about_license_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="xx@sahratelekom.com"
+                    android:textColorLink="@color/primary_color" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/dividerColor" />
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/link_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="@string/tenant"
+                    android:textColorLink="@color/primary_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/profile_layout_tenant_id"
+                    style="@style/about_license_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="1dip"
+                    android:text="sahra"
+                    android:textColorLink="@color/primary_color" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/link"
+                style="@style/link_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="@string/about_link"
+                android:textColorLink="@color/primary_color" />
+
+            <TextView
+                android:id="@+id/privacy_policy_link"
+                style="@style/about_license_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Sahra Telekom"
+                android:textColorLink="@color/primary_color" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+

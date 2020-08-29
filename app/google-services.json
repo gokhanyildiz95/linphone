@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "379890795216",
+    "firebase_url": "https://mobikob.firebaseio.com",
+    "project_id": "mobikob",
+    "storage_bucket": "mobikob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379890795216:android:1044278ed85bedf9a1d4d5",
+        "android_client_info": {
+          "package_name": "com.mobikob.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379890795216-j8csug16a91o5nh5ud2vqhd3vpu39v60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7WmRnTaTcIByuLyy5ThcShsfbQuB2Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379890795216-j8csug16a91o5nh5ud2vqhd3vpu39v60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379890795216:android:f0434fe82819c6f6a1d4d5",
+        "android_client_info": {
+          "package_name": "com.mobikob.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379890795216-j8csug16a91o5nh5ud2vqhd3vpu39v60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7WmRnTaTcIByuLyy5ThcShsfbQuB2Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379890795216-j8csug16a91o5nh5ud2vqhd3vpu39v60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
